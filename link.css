@@ -1,0 +1,115 @@
+body
+{
+    background-color:  blanchedalmond;
+}
+.bounce {
+    height: 50px;
+    overflow: hidden;
+    position: relative;
+    background: #f0b050;
+    color: red;
+    border: 1px solid violet;
+}
+
+.bounce h1 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    line-height: 50px;
+    text-align: center;
+    -moz-transform: translateX(50%);
+    -webkit-transform: translateX(50%);
+    transform: translateX(50%);
+    -moz-animation: bouncing-text 5s linear infinite alternate;
+    -webkit-animation: bouncing-text 5s linear infinite alternate;
+    animation: bouncing-text 10s linear infinite alternate;
+}
+
+@-moz-keyframes bouncing-text {
+    0% {
+        -moz-transform: translateX(50%);
+    }
+    100% {
+        -moz-transform: translateX(-50%);
+    }
+}
+
+@-webkit-keyframes bouncing-text {
+    0% {
+        -webkit-transform: translateX(50%);
+    }
+    100% {
+        -webkit-transform: translateX(-50%);
+    }
+}
+
+@keyframes bouncing-text {
+    0% {
+        -moz-transform: translateX(50%);
+        -webkit-transform: translateX(50%);
+        transform: translateX(50%);
+    }
+    100% {
+        -moz-transform: translateX(-50%);
+        -webkit-transform: translateX(-50%);
+        transform: translateX(-50%);
+    }
+}
+h3
+{
+    background-color: rgb(86, 248, 153);
+    font-family: "Lucida Console", "Courier New", monospace;
+    color :rgb(9, 49, 226);
+    line-height: 50px;
+}
+.one{
+    background-color : rgb(204, 253, 90);
+    font-size : 18px;
+    color :rgb(175, 3, 3);
+    font-weight: bold;
+}
+.two
+{
+    background-color : rgb(204,253, 90);
+    font-size : 18px;
+    color :rgb(175, 3, 3);
+    font-weight: bold;
+}
+.country
+{
+    background-color : rgb(253, 169, 90);
+    font-size : 34px;
+    line-height : 50px;
+    color :rgb(1, 3, 134);
+    font-weight: bold;
+}
+th
+{
+    font-size : 20px;
+}
+table,tr,td,th {
+    border : 3px solid red;
+}
+a:hover {
+    background-color : rgb(14, 125, 230);
+}
+td
+{
+    font-size : 20px;
+    text-align: center;
+}
+footer
+{
+    font-size : 16px;
+    color : red;
+}
+.con
+{
+    color : rgb(6, 102, 119);
+    font-size : 18px;
+}
+.mail
+{
+    font-size : 17px;
+}
